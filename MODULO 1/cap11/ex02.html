@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>audios em paginas </title>
+</head>
+<body>
+    <h1>reproduzindo audios em html5 forma simples </h1>
+    <audio src="midia/sumumusica.mp3" controls autoplay></audio>
+    <!--mp3 wav ogg -->
+<h2>h2 segunda maneira</h2>
+<audio preload="metadata" autoplay controls loop >
+    <source src="midia/sumumusica.mp3" type="audio/mpeg">
+    <source src="midia/sumumusica.agg" type="audio/ogg">
+    <source src="midia/sumumusica.wav" type="audio/wav">
+    <p>infelizmente seu navegador nao conseuqe reproduzir seu audio <a href="midia/sumumusica.mp3">clique aqui </a>para baixar o arquivo
+    </p>
+</audio>
+</body>
+</html>
